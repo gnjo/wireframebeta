@@ -18,6 +18,6 @@ wfb(`
 010
 010
 010
-`)
+`,'effect1') //effect class 30ms
 
 ```
