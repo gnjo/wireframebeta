@@ -35,19 +35,28 @@ wfb.wire(`
  }
  ;
  function entry(opt,query){
-  let el=fn.q(query)||fn.q('svg')
-  if(!el)return console.log('query error'),{}
   ;
-  let o={}
-  o.first=true
-  o.el=el
+  let o={
+  '0':'wall'
+ ,'1':'road'
+ ,'2':'door'
+ ,'3':'object'
+ ,'4':'upgate'
+ ,'5':'downgate'
+ //
+ ,'query':query||'svg'
+ ,'first':true
+ }
+  o.el=fn.q(o.query)
+  if(!o.el)return console.log('query error'),{}
+  ;
   o.ef=(c,ms)=>{
    ms=ms||30,c=c.replace('.',''),o.el.classList.add(c)   
    return setTimeout(()=>{ o.el.classList.remove(c) },ms), o
   }
   ;
-  o.wire=(obj)=>{
-   if(o.first)return setlayer(o.el),o.first=false,o.wire(obj)
+  o.wire=(obj,c,ms)=>{
+   if(o.first)return setlayer(o.el),o.first=false,o.wire(obj,c,ms)
    ;
    let ary=is.string(obj)?obj.trim().split('\n').map(d=>d.split('')):obj
    //ary[4][3] [['0','0','0'],...]
@@ -55,6 +64,7 @@ wfb.wire(`
     for(let x=0,x<3,x++)
      ary[y][x]=o[ary[y][x]]||'wall' //default wall
    ;
+   if(c)o.ef(c,ms)
    return drawwire(ary,o.el), o
   }
   ;
