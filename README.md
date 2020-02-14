@@ -1,7 +1,7 @@
 # wireframebeta
 
 ```
-//wall road door object upstair downstair
+//wall road door object upgate downgate //gate like a door
 //char:string
 //if not match is 0
 let wfb=wireframebeta({
@@ -9,8 +9,8 @@ let wfb=wireframebeta({
  ,'1':'road'
  ,'2':'door'
  ,'3':'object'
- ,'4':'upstair'
- ,'5':'downstair'
+ ,'4':'upgate'
+ ,'5':'downgate'
 },'svg#demo') //querySelector default svg
 ;
 wfb(`
