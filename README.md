@@ -56,7 +56,7 @@ wfb.wire(`
    return drawwire(ary,o.el), o
   }
   ;
-  Object.assign(o,opt)
+  return Object.assign(o,opt)
  }
  root.wireframebeta=entry
 })(this);
