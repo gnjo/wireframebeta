@@ -53,7 +53,7 @@ wfb.wire(`
     for(let x=0,x<3,x++)
      ary[y][x]=o[ary[y][x]]||'wall' //default wall
    ;
-   return drawsvg(ary,o.el), o
+   return drawwire(ary,o.el), o
   }
   ;
   Object.assign(o,opt)
