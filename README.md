@@ -27,11 +27,17 @@ wfb.wire(`
 ;(function(root){
  let fn={}; fn.q=(d)=>document.querySelector(d);
  let is={}; is.string = function(obj){return toString.call(obj) === '[object String]'}
+ ;
+ function setlayer(el){
+ }
+ function drawwire(ary,el)
+ ;
  function entry(opt,query){
   let el=fn.q(query)||fn.q('svg')
   if(!el)return console.log('query error'),{}
   ;
   let o={}
+  o.first=true
   o.el=el
   o.ef=(c,ms)=>{
    ms=ms||30,c=c.replace('.',''),o.el.classList.add(c)   
@@ -39,8 +45,15 @@ wfb.wire(`
   }
   ;
   o.wire=(obj)=>{
+   if(o.first)return setlayer(o.el),o.first=false,o.wire(obj)
+   ;
    let ary=is.string(obj)?obj.trim().split('\n').map(d=>d.split('')):obj
    //ary[4][3] [['0','0','0'],...]
+   for(let y=0,y<4;y++)
+    for(let x=0,x<3,x++)
+     ary[y][x]=o[ary[y][x]]||'wall' //default wall
+   ;
+   return drawsvg(ary,o.el), o
   }
   ;
   Object.assign(o,opt)
