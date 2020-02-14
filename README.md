@@ -17,7 +17,7 @@ wfb(`
 000
 010
 010
-010
+010  //stand center
 `,'effect1') //effect class 30ms
 
 ```
