@@ -30,7 +30,9 @@ wfb.wire(`
  ;
  function setlayer(el){
  }
- function drawwire(ary,el)
+ function drawwire(ary,el){
+  console.log(ary,el)
+ }
  ;
  function entry(opt,query){
   let el=fn.q(query)||fn.q('svg')
