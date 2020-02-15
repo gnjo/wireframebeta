@@ -1,0 +1,112 @@
+<svg width="320" height="240" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer" display="none">
+  <title>Layer 1</title>
+ </g>
+ <g class="layer" display="none">
+  <title>補助２</title>
+  <line fill="none" id="svg_7" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="177" x2="177" y1="98" y2="140"/>
+  <line fill="none" id="svg_9" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="194" x2="194" y1="82" y2="156"/>
+  <line fill="none" id="svg_11" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="228" x2="228" y1="50" y2="188"/>
+  <line fill="none" id="svg_4" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="143" x2="143" y1="98" y2="140"/>
+  <line fill="none" id="svg_8" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="126" x2="126" y1="83" y2="157"/>
+  <line fill="none" id="svg_10" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="92" x2="92" y1="50" y2="188"/>
+  <line fill="none" id="svg_2" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="25" x2="295" y1="120" y2="120"/>
+  <line fill="none" id="svg_35" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="160" x2="160" y1="10" y2="226"/>
+  <line fill="none" id="svg_47" opacity="0.3" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="71" x2="254" y1="206" y2="206"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>補助線</title>
+  <line fill="none" id="svg_3" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="160" x2="160" y1="119" y2="225"/>
+  <line fill="none" id="svg_5" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" transform="rotate(45 158 118)" x1="7" x2="309" y1="118" y2="118"/>
+  <line fill="none" id="svg_6" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" transform="rotate(-45 161.5 118)" x1="10" x2="313" y1="118" y2="118"/>
+  <line fill="none" id="svg_12" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" transform="rotate(27 160.5 121)" x1="20" x2="301" y1="121" y2="121"/>
+  <line fill="none" id="svg_14" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" transform="rotate(-27 161 120)" x1="21" x2="301" y1="120" y2="120"/>
+  <line fill="none" id="svg_15" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="35" x2="286" y1="189" y2="189"/>
+  <line fill="none" id="svg_27" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="36" x2="285" y1="120" y2="120"/>
+  <line fill="none" id="svg_28" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="36" x2="285" y1="155" y2="155"/>
+  <line fill="none" id="svg_39" opacity="0.1" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="36" x2="285" y1="137" y2="137"/>
+ </g>
+ <g class="layer" display="none">
+  <title>total</title>
+ </g>
+ <g class="layer" display="inline">
+  <title>D3R</title>
+  <rect fill="#000000" height="34" id="svg_55" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="34" x="177" y="103"/>
+  <path d="m184,137.01699c0,0.05882 0,-26.05882 0,-26c0,0.05882 20,-0.05882 20,0c0,0.05882 0,25.94118 0,26c0,0.05882 -10,-0.05882 -10,0c0,0.05882 0,-26.05882 0,-26" fill="none" id="svg_54" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D3L</title>
+  <rect fill="#000000" height="34" id="svg_57" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="34" x="109" y="103"/>
+  <path d="m116,137.01698c0,0.05882 0,-26.05882 0,-26c0,0.05882 20,-0.05882 20,0c0,0.05882 0,25.94118 0,26c0,0.05882 -10,-0.05882 -10,0c0,0.05882 0,-26.05882 0,-26" fill="none" id="svg_56" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D3C</title>
+  <rect fill="#000000" height="34" id="svg_21" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="34" x="143" y="103"/>
+  <path d="m150,137c0,0.05882 0,-26.05882 0,-26c0,0.05882 20,-0.05882 20,0c0,0.05882 0,25.94118 0,26c0,0.05882 -10,-0.05882 -10,0c0,0.05882 0,-26.05882 0,-26" fill="none" id="svg_53" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D2L</title>
+  <rect fill="#000000" height="69.5" id="svg_33" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="68" x="57" y="85"/>
+  <path d="m75,154.5l0,-51c0,0 34,0 34,0c0,0 0,51 0,51c0,0 -17,0 -17,0c0,0 0,-51 0,-51" fill="none" id="svg_37" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D2R</title>
+  <rect fill="#000000" height="69.5" id="svg_34" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="68" x="195" y="85"/>
+  <path d="m211,154.5l0,-51c0,0 34,0 34,0c0,0 0,51 0,51c0,0 -17,0 -17,0c0,0 0,-51 0,-51" fill="none" id="svg_36" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D2RS</title>
+  <path d="m177.00068,85.99934l17,16.92857l0,34.07143c0,0 -17,17 -17,17l0,-68z" fill="#000000" id="svg_18" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" transform="rotate(180 185.501 119.999)"/>
+  <path d="m189,149l0.05263,-43.94737l-8.05263,3.94737l0,32l4.05263,4.05263l0,-37.84211" fill="none" id="svg_52" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D2LS</title>
+  <path d="m126,86l17,16.92857l0,34.07143c0,0 -17,17 -17,17l0,-68z" fill="#000000" id="svg_17" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m131.05263,149.05263l-0.05263,-44.05263l8,4l0.05263,32.05263l-4,4l-0.05263,-38.05263" fill="none" id="svg_50" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D2C</title>
+  <rect fill="#000000" height="69.5" id="svg_22" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="68" x="126" y="85"/>
+  <path d="m143.00001,154.5l0,-51c0,0 34,0 34,0c0,0 0,51 0,51c0,0 -17,0 -17,0c0,0 0,-51 0,-51" fill="none" id="svg_38" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D1RS</title>
+  <path d="m194.00068,51.99934l34,33.85714l0,68.14286c0,0 -34,34 -34,34l0,-136z" fill="#000000" id="svg_19" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" transform="rotate(180 211.001 119.999)"/>
+  <path d="m218,178l0,-88l-18,9.18182l0,60.81818l8,8l0.27273,-72.72727" fill="none" id="svg_46" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D1LS</title>
+  <path d="m92,52l34,33.85714l0,68.14286c0,0 -34,34 -34,34l0,-136z" fill="#000000" id="svg_16" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m102,178c0,0 0,-87 0,-87l18,9l0,60l-9,9l0,-73" fill="none" id="svg_40" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="none">
+  <title>D1L</title>
+  <path d="m35.18059,51.5c0,0 55.81941,0 55.81941,0c0,0 0,136.00001 0,137.00001l-55,0" fill="#000000" id="svg_29" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m35.82211,78.64286c-2.85714,0 38.1779,-0.14286 38.1779,-0.14286c0,0 0,109.19709 0,110l-36,0" fill="none" id="svg_31" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D1R</title>
+  <path d="m230.07547,51.50001c0,0 55.92453,0 55.92453,0c0,0 0,136.00001 0,137.00001l-57,0" fill="#000000" id="svg_30" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" transform="rotate(180 257.5 120)"/>
+  <path d="m248.67924,78.54c-2,-0.14286 37.46362,0.14286 37.46362,0.14286c0,0 0,109.19709 0,110l-38.14285,0" fill="none" id="svg_32" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" transform="rotate(180 267.071 133.591)"/>
+ </g>
+ <g class="layer" display="none">
+  <title>D1C</title>
+  <rect fill="#000000" height="137" id="svg_23" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null" width="136" x="92" y="51.5"/>
+  <path d="m126,188.02778l0,-109c0,0.09621 68,-0.09621 68,0c0,0.09621 0,109 0,109c0,0 -34,0 -34,0c0,0 0,-109.09621 0,-109" fill="none" id="svg_48" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="none">
+  <title>D0R</title>
+  <path d="m285.11111,11.11111l-16.11111,-0.11111l-41,41c0,0 0,137 0,137l37,36.11111l21,-0.88889" fill="#000000" id="svg_44" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m264.11111,225.11111l-19.22222,-20.22222c-0.22222,-0.22222 0,-128 0.11111,-127.88889l41,-20.88889" fill="#000000" fill-opacity="0" id="svg_49" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>D0L</title>
+  <path d="m36,11l16,0l40,41l0,136c0,0 -36,37.14286 -36,36.85714l-20.14286,0" fill="#000000" id="svg_42" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m35,56.99999l39,16.2963l0.13131,132.40741l-18.90909,19.40947" fill="#000000" fill-opacity="0" id="svg_25" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+ </g>
+ <g class="layer" display="inline">
+  <title>bigframe</title>
+  <rect fill="none" height="214" id="svg_24" rx="2" ry="2" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="251" x="35" y="11"/>
+ </g>
+</svg>
