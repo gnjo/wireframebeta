@@ -17,7 +17,6 @@ let wfb=wireframebeta({
 //wfb.wire(...).ef(...)
 //
 wfb.wire(`
-000
 010
 010
 010  //stand center
