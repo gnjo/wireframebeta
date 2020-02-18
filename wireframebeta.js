@@ -100,7 +100,7 @@
  let fn={}; fn.q=(d)=>document.querySelector(d);
  fn.gi=(d,el)=>document.getElementById(d)
  fn.deep=d=>JSON.parse(JSON.stringify(d));
- fn.clone=o.deep 
+ fn.clone=fn.deep 
  let is={}; is.string = function(obj){return toString.call(obj) === '[object String]'}
  ;
  function setlayer(el){
