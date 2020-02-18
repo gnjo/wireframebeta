@@ -1,5 +1,13 @@
 # wireframebeta
-
+```
+wall="0" //face side
+road="1" //ground
+door="2" //face side
+object="3" //ground
+event="4" //ground
+downstair="5" //ground
+upstair="6" //ceiling
+```
 ```
 //wall road door object upgate downgate //gate like a door
 //char:string
@@ -9,8 +17,9 @@ let wfb=wireframebeta({
  ,'1':'road'
  ,'2':'door'
  ,'3':'object'
- ,'4':'upgate'
- ,'5':'downgate'
+ ,'4':'event'
+ ,'4':'downstair'
+ ,'5':'upstair'
 },'svg#demo') //querySelector default svg
 ;
 //
@@ -40,8 +49,9 @@ wfb.wire(`
  ,'1':'road'
  ,'2':'door'
  ,'3':'object'
- ,'4':'upgate'
- ,'5':'downgate'
+ ,'4':'event'
+ ,'4':'downstair'
+ ,'5':'upstair'
  //
  ,'query':query||'svg'
  ,'first':true
