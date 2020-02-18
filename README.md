@@ -1,5 +1,10 @@
 # wireframebeta
 ```
+//pug
+script(src="https://gnjo.github.io/wireframebeta/wireframebeta.js")
+
+```
+```
 wall="0" //face side
 road="1" //ground
 door="2" //face side
