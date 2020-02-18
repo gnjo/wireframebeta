@@ -107,25 +107,27 @@
  function drawwire(ary,el){
   //console.log(ary,el)
   let s='wall',v='none'
-  //
+  //012
+  //345
+  //678
   s=ary[0][0]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D0').style.display=v
   //  
   s=ary[0][1]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D1').style.display=v
   //
   s=ary[0][2]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D2').style.display=v  
   //
   //
   s=ary[1][0]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D3').style.display=v  
   s=ary[1][1]
@@ -152,12 +154,12 @@
   //
   
   s=ary[1][2]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D5').style.display=v  
   //
   s=ary[2][0]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D6').style.display=v  
   s=ary[2][1]
@@ -169,7 +171,7 @@
   fn.gi('D7O').style.display=v 
   
   s=ary[2][2]
-  if(s==='wall') v='inline'
+  if(s==='wall'||s==='door') v='inline'
   else v='none'
   fn.gi('D8').style.display=v
   //
