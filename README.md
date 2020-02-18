@@ -20,7 +20,7 @@ let wfb=wireframebeta({
  ,'4':'event'
  ,'5':'downstair'
  ,'6':'upstair'
-},'svg#demo') //querySelector default svg
+},'svg') //querySelector default svg
 ;
 //
 //wfb.wire(...).ef(...)
