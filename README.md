@@ -18,8 +18,8 @@ let wfb=wireframebeta({
  ,'2':'door'
  ,'3':'object'
  ,'4':'event'
- ,'4':'downstair'
- ,'5':'upstair'
+ ,'5':'downstair'
+ ,'6':'upstair'
 },'svg#demo') //querySelector default svg
 ;
 //
@@ -50,8 +50,8 @@ wfb.wire(`
  ,'2':'door'
  ,'3':'object'
  ,'4':'event'
- ,'4':'downstair'
- ,'5':'upstair'
+ ,'5':'downstair'
+ ,'6':'upstair'
  //
  ,'query':query||'svg'
  ,'first':true
