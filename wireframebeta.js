@@ -99,6 +99,8 @@
  ;
  let fn={}; fn.q=(d)=>document.querySelector(d);
  fn.gi=(d,el)=>document.getElementById(d)
+ fn.deep=d=>JSON.parse(JSON.stringify(d));
+ fn.clone=o.deep 
  let is={}; is.string = function(obj){return toString.call(obj) === '[object String]'}
  ;
  function setlayer(el){
@@ -204,7 +206,8 @@
   o.wire=(obj,c,ms)=>{
    if(o.first)return setlayer(o.el),o.first=false,o.wire(obj,c,ms)
    ;
-   let ary=is.string(obj)?obj.trim().split('\n').map(d=>d.split('')):obj
+   let ary=fn.clone(obj) //bug fix
+   ary=is.string(ary)?ary.trim().split('\n').map(d=>d.split('')):ary
    //ary[3][3] [['0','0','0'],...]
    for(let y=0;y<3;y++)
     for(let x=0;x<3;x++)
