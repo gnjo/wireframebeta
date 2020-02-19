@@ -40,3 +40,18 @@ wfb.wire(`
 //svg editor
 snapping 10
 ```
+## ttf
+```
+@font-face {
+ font-family: 'mapsy';
+ src: url('https://gnjo.github.io/wireframebeta/mapsy.ttf?v=3') format('truetype');
+    font-weight: normal;
+    font-style: monospace;
+}
+
+pre{
+ font-family:mapsy;
+ color:white;
+ line-height:0.9;
+}
+```
