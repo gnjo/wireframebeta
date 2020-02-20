@@ -126,22 +126,22 @@ function maketile(seed){
  if(!GeoPattern)return console.log('need','https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js') 
  ;
  let p=[
-	'octogons',
-	'overlappingCircles',
+	//'octogons',
+	//'overlappingCircles',
 	'plusSigns',
 	'xes',
 	//'sineWaves',
 	//'hexagons',
-	'overlappingRings',
+	//'overlappingRings',
 	//'plaid',
-	'triangles',
+	//'triangles',
 	'squares',
-	'concentricCircles',
+	//'concentricCircles',
 	'diamonds',
-	'tessellation',
+	//'tessellation',
 	'nestedSquares',
 	'mosaicSquares',
-	'chevrons'
+	//'chevrons'
 ]; 
  let opt={}
  opt.generator=p[seed%p.length]
@@ -154,7 +154,7 @@ function maketile(seed){
  
  function setlayer(el){
   el.innerHTML+=layer;
-  maketile(1)//
+  maketile(Date.now())//
  }
  function drawwire(ary,el){
   //console.log(ary,el)
