@@ -2,6 +2,8 @@
 ;(function(root){
  ;
  let layer=`
+<g id="wires">
+<!--------------->
  <g class="layer" display="none">
   <title>Layer 1</title>
  </g>
@@ -95,6 +97,8 @@
   <rect fill="none" fill-opacity="0" height="160" id="svg_29" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" width="160" x="80" y="40"/>
   <rect fill="none" fill-opacity="0" height="160" id="svg_57" rx="2" ry="2" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="160" x="80" y="40"/>
  </g>
+<!--------------->
+</g>
 `
  ;
  let fn={}; fn.q=(d)=>document.querySelector(d);
