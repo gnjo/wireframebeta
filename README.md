@@ -2,7 +2,18 @@
 ```
 script(src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js")
 
- seed=Date.now()
+let tex=`
+ <defs>
+  <!--need https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js -->
+    <pattern id="tile" x="0" y="0" width="100%" height="100%" patternUnits="userSpaceOnUse">
+     <image x="0" y="0" width="100%" height="100%"></image>
+    </pattern>
+ </defs>
+<!---<rect x="10" y="10" width="320" height="240" stroke="#630" stroke-width="0px" fill="url(#tile)" />-->
+`;
+function maketile(seed){
+ let query="#tile>image"
+ if(!fn.q(query)) fn.q('svg').innerHTML+=tex
  ;
  let p=[
 	'octogons',
@@ -27,7 +38,9 @@ script(src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopatter
  opt.baseColor='#789'
  let pattern=GeoPattern.generate(seed+'',opt);
  let src=pattern.toDataUri()
- fn.q('img').src=src
+ fn.q(query).setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href",src);//
+  //xlink:href 
+}
 ```
 ```
 //pug
