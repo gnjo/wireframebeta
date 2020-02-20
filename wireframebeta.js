@@ -120,7 +120,7 @@
  let is={}; is.string = function(obj){return toString.call(obj) === '[object String]'}
  ;
  
-function maketile(seed){
+function maketile(seed,basecolor){
  let query="#tile>image"
  if(!fn.q(query)) fn.q('svg').innerHTML+=tex
  if(!GeoPattern)return console.log('need','https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js') 
@@ -145,7 +145,7 @@ function maketile(seed){
 ]; 
  let opt={}
  opt.generator=p[seed%p.length]
- opt.baseColor='#111'
+ opt.baseColor=basecolor||'#111'
  let pattern=GeoPattern.generate(seed+'',opt);
  let src=pattern.toDataUri()
  fn.q(query).setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href",src);//
