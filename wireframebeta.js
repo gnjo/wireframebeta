@@ -4,8 +4,9 @@
  let layer=`
 <g id="wires">
 <!--------------->
- <g class="layer" display="none">
-  <title>Layer 1</title>
+ <g class="layer" display="inline">
+  <title>test Layer 1</title>
+  <rect fill="url(#tile)" fill-opacity="0" height="160" id="svg_29" width="160" x="80" y="40"/>
  </g>
  <g class="layer" display="none">
   <title>total</title>
