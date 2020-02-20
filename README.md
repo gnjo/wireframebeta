@@ -2,8 +2,32 @@
 ```
 script(src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js")
 
-let seed='xyz'
-fn.q('#pattern').src=GeoPattern.generate(seed).toDataUrl());
+ seed=Date.now()
+ ;
+ let p=[
+	'octogons',
+	'overlappingCircles',
+	'plusSigns',
+	'xes',
+	//'sineWaves',
+	//'hexagons',
+	'overlappingRings',
+	//'plaid',
+	'triangles',
+	'squares',
+	'concentricCircles',
+	'diamonds',
+	'tessellation',
+	'nestedSquares',
+	'mosaicSquares',
+	'chevrons'
+]; 
+ let opt={}
+ opt.generator=p[seed%p.length]
+ opt.baseColor='#789'
+ let pattern=GeoPattern.generate(seed+'',opt);
+ let src=pattern.toDataUri()
+ fn.q('img').src=src
 ```
 ```
 //pug
