@@ -6,7 +6,7 @@
 <!--------------->
  <g class="layer" display="inline">
   <title>test Layer 1</title>
-  <rect fill="url(#tile)" height="160" id="svg_29" width="160" x="80" y="40"/>
+  <rect fill="url(#tile)" height="100" id="svg_29" width="160" x="80" y="40"/>
  </g>
  <g class="layer" display="none">
   <title>total</title>
@@ -105,8 +105,8 @@
  let tex=`
  <defs>
   <!--need https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js -->
-    <pattern id="tile" x="0" y="0" width="100%" height="100%" patternUnits="userSpaceOnUse">
-     <image x="0" y="0" width="100%" height="100%"></image>
+    <pattern id="tile" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+     <image x="0" y="0" width="32" height="32"></image>
     </pattern>
  </defs>
 <!---<rect x="10" y="10" width="320" height="240" stroke="#630" stroke-width="0px" fill="url(#tile)" />-->
