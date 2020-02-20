@@ -128,19 +128,19 @@ function maketile(seed){
  let p=[
 	//'octogons',
 	//'overlappingCircles',
-	'plusSigns',
+	//'plusSigns',
 	'xes',
-	//'sineWaves',
+	'sineWaves',
 	//'hexagons',
 	//'overlappingRings',
 	//'plaid',
 	//'triangles',
 	'squares',
-	//'concentricCircles',
-	'diamonds',
+	'concentricCircles',
+	//'diamonds',
 	//'tessellation',
 	'nestedSquares',
-	'mosaicSquares',
+	//'mosaicSquares',
 	//'chevrons'
 ]; 
  let opt={}
