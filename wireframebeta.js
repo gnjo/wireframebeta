@@ -145,7 +145,7 @@ function maketile(seed,basecolor){
 ]; 
  let opt={}
  opt.generator=p[seed%p.length]
- opt.baseColor=basecolor||'#111'
+ if(basecolor)opt.baseColor=basecolor
  let pattern=GeoPattern.generate(seed+'',opt);
  let src=pattern.toDataUri()
  fn.q(query).setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href",src);//
