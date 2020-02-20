@@ -1,5 +1,11 @@
 # wireframebeta
 ```
+script(src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js")
+
+let seed='xyz'
+fn.q('#pattern').src=GeoPattern.generate(seed).toDataUrl());
+```
+```
 //pug
 script(src="https://gnjo.github.io/wireframebeta/wireframebeta.js")
 
