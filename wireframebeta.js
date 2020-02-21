@@ -120,7 +120,7 @@
  let is={}; is.string = function(obj){return toString.call(obj) === '[object String]'}
  ;
 
-function maketil2(seed,type){
+function maketile2(seed,type){
  let query="#tile>image"
  if(!fn.q(query)) fn.q('svg').innerHTML+=tex
  if(!GeoPattern)return console.log('need','https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js') 
