@@ -286,6 +286,7 @@ function maketile(seed,basecolor){
   ;
   return Object.assign(o,opt)
  }
+ root.maketile2=maketile2////
  root.maketile=maketile////
  root.wireframebeta=entry
 })(this);
