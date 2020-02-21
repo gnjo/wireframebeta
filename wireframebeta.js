@@ -119,7 +119,23 @@
  fn.clone=fn.deep 
  let is={}; is.string = function(obj){return toString.call(obj) === '[object String]'}
  ;
- 
+
+function maketil2(seed,type){
+ let query="#tile>image"
+ if(!fn.q(query)) fn.q('svg').innerHTML+=tex
+ if(!GeoPattern)return console.log('need','https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js') 
+ ;
+ let p=(type)?['nestedSquares']:['sineWaves']\\
+ let opt={}
+ opt.generator=p[seed%p.length]//
+ opt.baseColor='#010',opt.color="#000"
+ let pattern=GeoPattern.generate(seed+'',opt);
+ let src=pattern.toDataUri()
+ fn.q(query).setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href",src);//
+  //xlink:href 
+} 
+	
+}
 function maketile(seed,basecolor){
  let query="#tile>image"
  if(!fn.q(query)) fn.q('svg').innerHTML+=tex
@@ -151,7 +167,8 @@ function maketile(seed,basecolor){
  fn.q(query).setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href",src);//
   //xlink:href 
 } 
- 
+
+	
  function setlayer(el){
   el.innerHTML+=layer;
   maketile(Date.now())//
