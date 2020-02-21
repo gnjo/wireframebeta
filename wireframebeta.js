@@ -135,7 +135,7 @@ function maketil2(seed,type){
   //xlink:href 
 } 
 	
-}
+
 function maketile(seed,basecolor){
  let query="#tile>image"
  if(!fn.q(query)) fn.q('svg').innerHTML+=tex
