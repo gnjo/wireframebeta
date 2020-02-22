@@ -125,7 +125,9 @@ function maketile2(seed,type){
  if(!fn.q(query)) fn.q('svg').innerHTML+=tex
  if(!GeoPattern)return console.log('need','https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js') 
  ;
- let p=(type)?['nestedSquares']:['sineWaves']//
+ let p=['overlappingRings']
+ if(type==1)p=['nestedSquares'];
+ if(type==2)p=['sineWaves'];
  let opt={}
  opt.generator=p[seed%p.length]//
  opt.baseColor='#010',opt.color="#000"
@@ -171,7 +173,7 @@ function maketile(seed,basecolor){
 	
  function setlayer(el){
   el.innerHTML+=layer;
-  maketile(Date.now())//
+  //maketile(Date.now())//
  }
  function drawwire(ary,el){
   //console.log(ary,el)
